@@ -14,6 +14,20 @@
     <h1>Hello, world!</h1>
     <p>ecco un paragrafo</p>
 
+      <?php
+      
+      $arr = ["mela","kiwi","pera"];
+      
+      for ($i=0; $i <count($arr); $i++) { 
+      	echo '<li>'. $arr[$i] .'</li>';
+      
+      }
+
+      
+      ?>
+
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/jquery-3.3.1.min.js"></script>
